@@ -1,0 +1,53 @@
+:root {
+  --gold: #F4B942;
+  --red: #E85D35;
+  --cream: #FFF3D6;
+  --brown: #38271F;
+  --green: #6C8B45;
+  --white: #FFFFFF;
+}
+
+body{
+    background-color: var(--cream);
+    color: var(--brown);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 40rem;
+    margin: 40px auto;
+    padding: 25px;
+}
+h1{
+    color: var(--red);
+    text-align: center;
+    padding: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px var(--brown);
+}
+form{
+    background-color: var(--green);
+    padding: 25px;
+    border-radius: 10px;
+    border: var(--brown) solid 5px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+textarea{
+    width: 100%;
+    border: var(--brown) solid 5px;
+    border-radius: 10px;
+}
+button{
+    background-color: var(--gold);
+    color: var(--brown);
+    font-weight: bolder;
+    padding: 25px;
+    border-radius: 10px;
+    border: var(--brown) solid 5px;
+    margin-top: 10px;
+}
+#menu-text{
+    white-space: pre-line;
+}
