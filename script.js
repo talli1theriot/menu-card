@@ -1,7 +1,7 @@
 let form = document.querySelector("#menu-form");
-let form = document.querySelector("#menu-input")
-let form = document.querySelector("#count")
-let form = document.querySelector("#menu-text")
+let input = document.querySelector("#menu-input");
+let count = document.querySelector("#count");
+let menuText = document.querySelector("#menu-text");
 
 function handleSubmit(event) {
     event.preventDefault();
