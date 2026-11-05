@@ -54,3 +54,6 @@ button:hover{
 #menu-text{
     white-space: pre-line;
 }
+p{
+    text-align: center;
+}
